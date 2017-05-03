@@ -2,8 +2,8 @@
 
   $.fn.railsSortable = function(options) {
     var defaults = {
-      axis: 'y',
-      scroll: 'true'
+      revert: true,
+      scroll: true
     };
 
     var setting = $.extend(defaults, options);
